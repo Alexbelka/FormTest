@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form class="form" action="#">
+    <p class="form__text">Кто Вы?</p>
+    <label class="form__label">
+        <div class="block block__intro">
+            <div class="block__intro--percent"></div>
+        </div>
+        Интроверт
+        <input class="form__input form__input--introvert" name="btn" type="radio">
+    </label>
+    <label class="form__label">
+        <div class="block block__extro">
+            <div class="block__extro--percent"></div>
+        </div>
+        Экстраверт
+        <input class="form__input form__input--extrovert" name="btn" type="radio">
+    </label>
+    <label class="form__label">
+        <div class="block block__never">
+            <div class="block__never--percent"></div>
+        </div>
+        Не знаю
+        <input class="form__input form__input--neverMind" name="btn" type="radio">
+    </label>
+    <button class="form__result" disabled>Узнать результат опроса</button>
+    <div class="peopleAmount">
+        <p>Всего проголосовало:</p>
+    </div>
+</form>
+
+<script src="index.js"></script>
+
+</body>
+</html>
